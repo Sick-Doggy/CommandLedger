@@ -1,0 +1,31 @@
+# Dependencies
+/vendor/
+/composer.phar
+/composer.lock
+
+# PHPUnit
+/.phpunit.result.cache
+/.phpunit.cache/
+/phpunit.xml
+
+# Static analysis and code style
+/var/
+/.php-cs-fixer.cache
+/.php-cs-fixer.php
+
+# IDEs and OS files
+/.idea/
+/.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local tooling scratch
+/.claude/worktrees/
+/.superpowers/
+
+# Internal documentation (not published)
+/docs/
